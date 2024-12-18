@@ -1,7 +1,7 @@
 "use server";
 
 const jensBot = process.env.TELEGRAM_CHAT_ID;
-const token = process.env.TELEGRAM_BOT_TOKEN;
+const token = process.env.TELEGRAM_TOKEN;
 
 export const sendTelegramMessage = async (
   msg: string,
